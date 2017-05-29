@@ -20,10 +20,18 @@ public class SpeedTestMain {
         System.gc();
         System.out.println("ArrayList took "+AddArrayList()+" Milliseconce to Handle 9999999 add request");
         System.gc();
-        //System.out.println("HashSet took "+AddHashSet()+" Milliseconce to Handle 9999999 add request");
-       // System.gc();
+        System.out.println("HashSet took "+Helper.AddHashSet()+" Milliseconce to Handle 9999999 add request");
+        System.gc();
         System.out.println("PriorityQueue took "+AddPriorityQueue()+" Milliseconce to Handle 9999999 add request");
         System.gc();
         System.out.println("ArrayDeque took "+AddArrayDeque()+" Milliseconce to Handle 9999999 add request");
+        System.out.println("\n=====================================================\nContains Speed Test\n\n");
+        
+        System.out.println("ArrayList " + Helper.TestContainArrayList());
+        System.out.println("Stack " + Helper.TestContainStack());
+        System.out.println("LinkedList " + Helper.TestContainLinkedList());
+        System.out.println("HashSet " + Helper.TestContainHashSet());
+        System.out.println("PriorityQueue " + Helper.TestContainPriorityQueue());
+        System.out.println("ArrayDeque " + Helper.TestContainArrayDeque());
     }
 }
