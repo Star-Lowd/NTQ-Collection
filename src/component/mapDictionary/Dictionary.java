@@ -54,10 +54,7 @@ public class Dictionary<Key1, Key2, Value> implements IDictionary<Key1, Key2, Va
 
     @Override
     public boolean ContainKey(Key1 key1, Key2 key2) {
-        if (key.containsKey(key1) && key.get(key1).equals(key)){
-            return true;
-        }
-        return false;
+        return key.containsKey(key1) && key.get(key1).equals(key);
     }
     
 }

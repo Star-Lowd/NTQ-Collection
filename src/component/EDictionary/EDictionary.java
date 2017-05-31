@@ -11,11 +11,19 @@ import java.util.HashMap;
 /**
  *
  * @author Star Blazh
+ * @param <Key1> 
+ * @param  <Key2> 
+ * @param  <Value> 
  */
 public class EDictionary<Key1, Key2, Value> implements IDictionary<Key1, Key2, Value>{
     HashMap<Key, Value> dictionary;
     public EDictionary() {
         dictionary = new HashMap();
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return this;
     }
     
     @Override

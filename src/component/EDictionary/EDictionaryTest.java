@@ -14,11 +14,16 @@ public class EDictionaryTest {
         EDictionary<String, Integer, String> dictionary = new EDictionary();
         dictionary.put("OEO", 21, "Olasehinde Ezekiel Olaoluwa");
         dictionary.put("NVS", 31, "Nguyen Vang Sang");
-        //dich.put("OO", 21, "Olagunju Olaotunde");
+        
+        dictionary.put("OEO", 21, "Olasehinde Ezekiel Olaoluwa123213");
+        // return value = Olasehinde Ezekiel Olaoluwa
+        // new value = Olasehinde Ezekiel Olaoluwa123213
+//dich.put("OO", 21, "Olagunju Olaotunde");
         //dich.put("Ez", 21, "Olasehinde Ezekiel Olaoluwa");
         System.out.println(dictionary.ContainKey("OEO", 21));
         System.out.println(dictionary.ContainKey("OO", 22));
         System.out.println(dictionary.get("OEO", 21));
         System.out.println(dictionary.get("NVS", 31));
+        System.out.println(dictionary.dictionary.size());
     }
 }

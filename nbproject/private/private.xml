@@ -3,8 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Star%20Blazh/Documents/NetBeansProjects/ExerciseCollection/src/Map/hashMap.java</file>
-            <file>file:/C:/Users/Star%20Blazh/Documents/NetBeansProjects/ExerciseCollection/src/Map/hashTable.java</file>
+            <file>file:/C:/Users/Star%20Blazh/Documents/NetBeansProjects/ExerciseCollection/src/component/mapDictionary/IDictionary.java</file>
+            <file>file:/C:/Users/Star%20Blazh/Documents/NetBeansProjects/ExerciseCollection/src/component/EDictionary/Key.java</file>
+            <file>file:/C:/Users/Star%20Blazh/Documents/NetBeansProjects/ExerciseCollection/src/ThreadsAndRunnable/Producer.java</file>
+            <file>file:/C:/Users/Star%20Blazh/Documents/NetBeansProjects/ExerciseCollection/src/component/EDictionary/EDictionaryTest.java</file>
+            <file>file:/C:/Users/Star%20Blazh/Documents/NetBeansProjects/ExerciseCollection/src/component/EDictionary/EDictionary.java</file>
         </group>
     </open-files>
 </project-private>

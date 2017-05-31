@@ -22,17 +22,18 @@ public class Key {
 
     @Override
     public boolean equals(Object obj) {
-        Key key = (Key)obj;
-        return key.key1.equals(this.key1) && key.key2.equals(this.key2) ;
+        //Key key = (Key)obj;
+        return this.hashCode() == obj.hashCode();
     }
 
-    @Override
-    public int hashCode() {
-        int hash = 5;
-        hash = 43 * hash + Objects.hashCode(this.key1);
-        hash = 43 * hash + Objects.hashCode(this.key2);
-        return hash;
+    
+    public static void main(String[] args) {
+        Key key = new Key(3, 78);
+        Key key2 = new Key(3, 78);
+        Key key3 = new Key(3, 78);
+
+        System.out.println("Key 1 memory location = "+key);
+        System.out.println("Key 2 memory location = "+key2);
+        System.out.println("Key 3 memory location = "+key3);
     }
-    
-    
 }
